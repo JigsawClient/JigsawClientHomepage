@@ -12,27 +12,28 @@
 		<link href="assets/style/css_002.css" rel="stylesheet">
 		<link href="assets/style/css.css" rel="stylesheet">
 
+		<script src="assets/js/smoothScroll.js"></script>
+
 	</head>
 	<body>
 		<header>
 			<img id="logoImage" src="assets/img/logo.png">
 
 			<ul>
-				<li><button onclick="">Home</button></li>
-				<li><button onclick="">Back</button></li>
+				<li><button onclick="scrollToId('download')">Download</button></li>
 			</ul>
 
-			<div style="height: 2px; background-color: rgba(200, 50, 50, 1)" class="slideInFromLeft1s"></div>
+			<div style="height: 2px; background-color: rgba(200, 50, 50, 1); position: relative; z-index: 1" class="slideInFromLeft1s"></div>
 		</header>
 
-		<img id="clickGuiImg" class="appearFromInvisible" src="assets/img/clickGui.png">
+		<img id="clickGuiImg" class="appearFromInvisible" src="assets/img/jigsawMainMenu.jpg">
 
 		<section id="titleContainer" class="appearFromInvisible">
 			<img style="width: 100%;height: auto;max-width: 550px;padding-left: 25px;padding-right: 25px;" src="assets/img/logo2x.png">
 			<p>Exploiting Minecraft, with Style</p>
 
 			<section id="titleButtonContainer">
-				<button id="downloadBtn" onclick="window.location.href='#home'">Download</button>
+				<button class="downloadBtn" onclick="window.location.href='#home'">Download</button>
 				<button id="learnMoreBtn" onclick="window.location.href='#home'">Learn More</button>
 			</section>
 
@@ -69,24 +70,72 @@
 		<section id="statistics" class="transparentContainer col-8 col-12">
 
 			<section class="statsSection">
+				<h2>110+</h2>
+				<h3>Hacks</h3>
+			</section>
+			
+			<section class="statsSection">
 				<h2>700 000+</h2>
 				<h3>Downloads</h3>
 			</section>
 
-			<section class="statsSection">
-				<h2>100+</h2>
-				<h3>Hacks</h3>
-			</section>
-
 		</section>
 
-		<section id="donate" class="container">
+		<!--<section id="donate" class="container">
 
 			<section class="centeredPage col-8 col-t-10">
 
 				<h1>Donate</h1>
 
 
+
+			</section>
+
+		</section>-->
+
+		<section id="gameplay" class="container">
+				
+			<section class="centeredPage col-8 col-t-10">
+
+				<h1>Gameplay</h1>
+
+				<p>
+					Check out these videos showcasing Jigsaw Client!
+				</p>
+				
+				<section class="center">
+					<iframe src="https://www.youtube.com/embed/tj5nnemdHvo" allowfullscreen="" frameborder="0"></iframe>
+					<iframe src="https://www.youtube.com/embed/voKm2Vfg16o" allowfullscreen="" frameborder="0"></iframe>
+				</section>
+				
+			</section>
+
+		</section>
+
+		<section id="download" class="transparentContainer col-8 col-12">
+				
+			<h1>Download</h1>
+
+			<p>
+				At the moment, ​Jigsaw is available for Minecraft 1.8.8, 1.10 and 1.12.2
+			</p>
+
+			<section id="downloadSection">
+
+				<section class="statsSection">
+					<h3>1.12.2</h3>
+					<button id="finalDownloadBtn" class="disabled">Coming soon!</button>
+				</section>
+
+				<section class="statsSection">
+					<h3>1.8.8</h3>
+					<button id="finalDownloadBtn" class="downloadBtn">Download Installer</button>
+				</section>
+
+				<section class="statsSection">
+					<h3>1.10</h3>
+					<button id="finalDownloadBtn" class="downloadBtn">Download Installer</button>
+				</section>
 
 			</section>
 
