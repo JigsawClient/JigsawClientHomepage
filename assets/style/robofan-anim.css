@@ -1,0 +1,25 @@
+@keyframes slideInFromLeft1s {
+	0% {
+		transform: translateX(-100%);
+  	}
+  	100% {
+		transform: translateX(0);
+	}
+}
+
+.slideInFromLeft1s {
+	animation: 1s cubic-bezier(.2,.71,.61,1) 0s 1 slideInFromLeft1s;
+}
+
+@keyframes appearFromInvisible {
+	0% {
+		opacity: 0;
+  	}
+  	100% {
+		opacity: 1;
+	}
+}
+
+.appearFromInvisible {
+	animation: 3s ease-out 0.0s 1 appearFromInvisible;
+}

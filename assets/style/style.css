@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.divider {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 1px;
+}
+
+button {
+	border: none;
+	background-color: rgba(0, 0, 0, 1);
+
+	transition: color 0.2s, background-color 0.2s, transform 0.4s;
+}
+
+button:focus {
+	outline: inherit;
+}
+
+#downloadBtn {
+	background-color: rgba(200, 50, 50, 1);
+}
+
+#learnMoreBtn {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+button:hover {
+	cursor: pointer;
+
+	color: rgb(200, 100, 100);
+	background-color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+#downloadBtn:hover {
+	color: rgb(200, 100, 100);
+	background-color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+}
+
+#learnMoreBtn:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+header {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logoImage {
+	padding: 15px;
+}
+
+header ul {
+	float: right;
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+header li {
+	float: left;
+	background-color: rgba(255, 255, 255, 0.0);
+	text-align: center;
+}
+
+button {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	margin-left: 3px;
+	margin-right: 3px;
+
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 0;
+	padding: 19px;
+}
+
+#clickGuiImg {
+	display: block;
+	position: fixed;
+	filter: blur(20px);
+	z-index: -1;
+}
+
+#titleContainer {
+	padding-top: 200px;
+	padding-bottom: 45vh;
+	text-align: center;
+}
+
+#titleContainer p {
+	font-size: 20px;
+	color: white;
+}
+
+h1 {
+	font-size: 50px;
+	color: black;
+	margin-bottom: 45px;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 30px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#titleButtonContainer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#titleButtonContainer button {
+	border-radius: 5px;
+}
+
+.container {
+	text-align: center;
+	background-color: white;
+
+}
+
+.transparentContainer {
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+
+	margin-top: 50px;
+}
+
+#what {
+}
+
+#donate {
+}
+
+.centeredPage {
+	display: inline-block;
+	text-align: left;
+
+	height: 100%;
+	max-width: 1400px;
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.centeredPage p {
+	color: rgb(70, 70, 70);
+}
+
+.center {
+	text-align: center;
+}
+
+#statistics {
+
+}
+
+.statsSection {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.statsSection p {
+	color: white;
+}
