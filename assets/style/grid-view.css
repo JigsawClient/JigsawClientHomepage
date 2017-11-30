@@ -36,6 +36,15 @@ iframe {
 	padding: 0px;
 }
 
+@media only screen and (max-width: 650px) {
+
+	header ul {
+		visibility: hidden;
+		display: none;
+	}
+
+}
+
 @media only screen and (min-width: 425px) {
 	/*Tablett*/
 

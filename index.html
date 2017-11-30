@@ -20,6 +20,9 @@
 			<img id="logoImage" src="assets/img/logo.png">
 
 			<ul>
+				<li><button onclick="scrollToId('titleContainer')">Home</button></li>
+				<li><button onclick="scrollToId('what')">About</button></li>
+				<li><button onclick="scrollToId('gameplay')">Gameplay</button></li>
 				<li><button onclick="scrollToId('download')">Download</button></li>
 			</ul>
 
@@ -33,8 +36,8 @@
 			<p>Exploiting Minecraft, with Style</p>
 
 			<section id="titleButtonContainer">
-				<button class="downloadBtn" onclick="window.location.href='#home'">Download</button>
-				<button id="learnMoreBtn" onclick="window.location.href='#home'">Learn More</button>
+				<button class="downloadBtn" onclick="scrollToId('download')">Download</button>
+				<button id="learnMoreBtn" onclick="scrollToId('what')">Learn More</button>
 			</section>
 
 		</section>
@@ -123,18 +126,32 @@
 			<section id="downloadSection">
 
 				<section class="statsSection">
-					<h3>1.12.2</h3>
+					<h3>MC 1.12.2</h3>
+					<p style="font-size: 20px;">Jigsaw v1.0</p>
 					<button id="finalDownloadBtn" class="disabled">Coming soon!</button>
 				</section>
 
 				<section class="statsSection">
-					<h3>1.8.8</h3>
-					<button id="finalDownloadBtn" class="downloadBtn">Download Installer</button>
+					<h3>MC 1.8.8</h3>
+					<p style="font-size: 20px;">Jigsaw v0.26</p>
+					<button id="finalDownloadBtn" class="downloadBtn" onclick="window.location.href='http://kibuilder.com/3Ju2'">Download Installer</button>
 				</section>
 
 				<section class="statsSection">
-					<h3>1.10</h3>
-					<button id="finalDownloadBtn" class="downloadBtn">Download Installer</button>
+					<h3>MC 1.10</h3>
+					<p style="font-size: 20px;">Jigsaw v0.24</p>
+					<button id="finalDownloadBtn" class="downloadBtn" onclick="window.location.href='http://atomcurve.com/22Xy'">Download Installer</button>
+				</section>
+
+			</section>
+
+			<section id="downloadSection">
+
+				<section class="statsSection">
+					<h3>MC 1.8.8</h3>
+					<p style="font-size: 20px;">Jigsaw v0.25</p>
+					<p>(Outdated)</p>
+					<button id="finalDownloadBtn" class="downloadBtn outdated" onclick="window.location.href='http://atomcurve.com/22MD'">Download Installer</button>
 				</section>
 
 			</section>

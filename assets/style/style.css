@@ -203,7 +203,6 @@ h3 {
 	height: calc(100vh - 100px);
 }
 
-
 iframe {
 	height: 300px;
 }
@@ -226,6 +225,14 @@ iframe {
 }
 
 #finalDownloadBtn {
+
+}
+
+.outdated {
+	background-color: rgb(87, 58, 58);
+}
+
+.outdated:hover {
 
 }
 
