@@ -1,9 +1,9 @@
-#adBanner {
+#vpnCity {
 	position: relative;
 	top: 100px;
 }
 
-#adBanner:hover {
+#vpnCity:hover {
 	cursor: pointer;
 }
 
