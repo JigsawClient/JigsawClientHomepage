@@ -1,10 +1,27 @@
-#vpnCity {
+.banner {
 	position: relative;
 	top: 100px;
 }
 
-#vpnCity:hover {
+.banner:hover {
 	cursor: pointer;
+}
+
+.banner {
+	display: inline-block;
+}
+
+.banner {
+	margin-right: 50px;
+}
+
+.last {
+	margin-right: 0px;
+}
+
+#giveaway {
+	position: relative;
+	top: 150px;
 }
 
 * {
@@ -117,7 +134,7 @@ button {
 }
 
 #titleContainer {
-	height: 100vh;
+	height: calc(100vh + 430px);
 	padding-top: 30vh;
 	text-align: center;
 }
