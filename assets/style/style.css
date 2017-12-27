@@ -19,9 +19,8 @@
 	margin-right: 0px;
 }
 
-#giveaway {
-	position: relative;
-	top: 150px;
+#giveawayBox {
+	margin-top: 50px;
 }
 
 * {
@@ -134,7 +133,7 @@ button {
 }
 
 #titleContainer {
-	height: calc(100vh + 430px);
+	height: calc(100vh);
 	padding-top: 30vh;
 	text-align: center;
 }
@@ -188,6 +187,21 @@ h3 {
 	position: relative;
 	top: -10px;
 	color: white;
+}
+
+#giveaway {
+	background-color: rgb(110, 177, 255);
+	min-height: 100vh;
+}
+
+#giveaway h1 {
+	color: white;
+	text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+#giveaway p {
+	color: rgb(247, 247, 247);
+	text-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
 
 #what {
