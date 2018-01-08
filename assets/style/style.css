@@ -52,10 +52,9 @@ button:focus {
 	background-color: rgba(200, 50, 50, 1);
 }
 
-#learnMoreBtn {
-	border-color: white;
-	border-style: solid;
-	border-width: 1px;
+    	-webkit-box-shadow:inset 0px 0px 0px 1px white;
+    	-moz-box-shadow:inset 0px 0px 0px 1px white;
+  	box-shadow:inset 0px 0px 0px 1px white;
 }
 
 button:hover {
