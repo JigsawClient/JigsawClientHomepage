@@ -51,7 +51,7 @@ button:focus {
 .downloadBtn {
 	background-color: rgba(200, 50, 50, 1);
 }
-
+#learnMoreBtn {
     	-webkit-box-shadow:inset 0px 0px 0px 1px white;
     	-moz-box-shadow:inset 0px 0px 0px 1px white;
   	box-shadow:inset 0px 0px 0px 1px white;
