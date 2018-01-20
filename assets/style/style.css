@@ -11,6 +11,11 @@
 	display: inline-block;
 }
 
+.banner img {
+	width: 468px;
+	height: 60px;
+}
+
 .banner {
 	margin-right: 50px;
 }
